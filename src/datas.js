@@ -44,9 +44,71 @@ let xAxisData = [
     Sale: 12_900,
   },
   {
-    name: "Dec",
+    name: "Dev",
     Sale: 97_000,
   },
 ];
 
-export { xAxisData };
+const newMembers = [
+  {
+    id: 1,
+    username: "Mohammad Amin",
+    title: "Web Developer",
+    img: "images/person.png",
+  },
+  {
+    id: 2,
+    username: "Sasas Moq",
+    title: "Seo Eng",
+    img: "images/person.png",
+  },
+  {
+    id: 3,
+    username: "Zahra Agayi",
+    title: "Weblog",
+    img: "images/person.png",
+  },
+  {
+    id: 4,
+    username: "Qadir Yolme",
+    title: "Hacker",
+    img: "images/person.png",
+  },
+];
+
+const transactions = [
+  {
+    id: 1,
+    customer: "Qadir Yolme",
+    date: "12 Jun 2022",
+    amount: 123,
+    status: "approved",
+    img: "images/person.png",
+  },
+  {
+    id: 2,
+    customer: "Amin Saeedi",
+    date: "23 Jul 2022",
+    amount: 123,
+    status: "declined",
+    img: "images/person.png",
+  },
+  {
+    id: 3,
+    customer: "Mohammad Qol",
+    date: "28 May 2022",
+    amount: 123,
+    status: "pending",
+    img: "images/person.png",
+  },
+  {
+    id: 4,
+    customer: "Sasan Moq",
+    date: "1 Feb 2022",
+    amount: 123,
+    status: "approved",
+    img: "images/person.png",
+  },
+];
+
+export { xAxisData, newMembers, transactions };
