@@ -82,7 +82,7 @@ const transactions = [
     customer: "Qadir Yolme",
     date: "12 Jun 2022",
     amount: 123,
-    status: "approved",
+    status: "Approved",
     img: "images/person.png",
   },
   {
@@ -90,7 +90,7 @@ const transactions = [
     customer: "Amin Saeedi",
     date: "23 Jul 2022",
     amount: 123,
-    status: "declined",
+    status: "Declined",
     img: "images/person.png",
   },
   {
@@ -98,7 +98,7 @@ const transactions = [
     customer: "Mohammad Qol",
     date: "28 May 2022",
     amount: 123,
-    status: "pending",
+    status: "Pending",
     img: "images/person.png",
   },
   {
@@ -106,9 +106,52 @@ const transactions = [
     customer: "Sasan Moq",
     date: "1 Feb 2022",
     amount: 123,
-    status: "approved",
+    status: "Approved",
     img: "images/person.png",
   },
 ];
 
-export { xAxisData, newMembers, transactions };
+let userRows = [
+  {
+    id: 1,
+    username: "Qadir Yolme",
+    avatar: "images/person.png",
+    status: "active",
+    transaction: "$129.52",
+    email: "amin@gmail.com",
+  },
+  {
+    id: 2,
+    username: "Amin Saeedi",
+    avatar: "images/person.png",
+    status: "non-active",
+    transaction: "$110",
+    email: "amin@gmail.com",
+  },
+  {
+    id: 3,
+    username: "Sasan Moq",
+    avatar: "images/person.png",
+    status: "active",
+    transaction: "$98",
+    email: "amin@gmail.com",
+  },
+  {
+    id: 4,
+    username: "Zahra Agayi",
+    avatar: "images/person.png",
+    status: "active",
+    transaction: "$0",
+    email: "amin@gmail.com",
+  },
+  {
+    id: 5,
+    username: "Hamze mohammadi",
+    avatar: "images/person.png",
+    status: "active",
+    transaction: "$55.98",
+    email: "amin@gmail.com",
+  },
+];
+
+export { xAxisData, newMembers, transactions, userRows };
